@@ -1,10 +1,11 @@
 import BgRemover from './BgRemover';
+import ImgInput from './img_input';
 
 function App() {
   return (
     <div className="App">
-      {/* <ImgInput /> */}
-      <BgRemover />
+      <ImgInput />
+      {/* <BgRemover /> */}
     </div>
   );
 }
